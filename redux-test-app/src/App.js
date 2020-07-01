@@ -16,11 +16,11 @@ function App() {
         <div className="row">
             <div className="col s5">
                 <h3>Sync Posts</h3>
-                <SyncPosts posts={[4]}/>
+                <SyncPosts />
             </div>
             <div className="col s5 offset-l1">
                 <h3>Async posts</h3>
-                <AsyncPosts posts={[3]} />
+                <AsyncPosts />
             </div>
         </div>
     </div>
